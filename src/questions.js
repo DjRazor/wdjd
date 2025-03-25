@@ -8,36 +8,6 @@
 // },
 export const questions = [
     {
-      question: 'What was the first miracle performed by Jesus?',
-      options: ['Healing a blind man', 'Turning water into wine', 'Feeding the 5000', 'Walking on water'],
-      correct: 1,
-      scripture: "John 2:1-11 - Jesus turns water into wine at a wedding in Cana."
-    },
-    {
-      question: 'Who betrayed Jesus?',
-      options: ['Peter', 'Judas', 'John', 'Matthew'],
-      correct: 1,
-      scripture: "Matthew 26:14-16 - Judas agrees to betray Jesus for thirty pieces of silver."
-    },
-    {
-      question: 'Where was Jesus born?',
-      options: ['Jerusalem', 'Nazareth', 'Bethlehem', 'Capernaum'],
-      correct: 2,
-      scripture: "Luke 2:4-7 - Jesus is born in Bethlehem in a manger because there is no room in the inn."
-    },
-    {
-      question: 'How many disciples did Jesus have?',
-      options: ['10', '12', '14', '13'],
-      correct: 1,
-      scripture: "Matthew 10:1-4 - Jesus calls twelve disciples to follow Him and give them authority to heal the sick."
-    },
-    {
-      question: 'What is the name of the mountain where Jesus was transfigured?',
-      options: ['Mount Sinai', 'Mount Zion', 'Mount Tabor', 'Mount Ararat'],
-      correct: 2,
-      scripture: "Matthew 17:1-8 - Jesus is transfigured on the mountain before Peter, James, and John."
-    },
-    {
       question: "When Jesus was asked about the greatest commandment, what did He say?",
       options: [
           "You shall love the Lord your God with all your heart, with all your soul, and with all your mind.",
@@ -46,7 +16,8 @@ export const questions = [
           "Give generously, and your sins will be forgiven."
       ],
       correct: 0,
-      scripture: "Matthew 22:36-40"
+      scripture: "Matthew 22:36-40",
+      qtp: "How do you love with your heart, soul, and mind?"
   },
   {
       question: "When Jesus was asked how often we should forgive others, what did He say?",
@@ -57,7 +28,8 @@ export const questions = [
           "Only forgive those who are worthy."
       ],
       correct: 1,
-      scripture: "Matthew 18:21-22"
+      scripture: "Matthew 18:21-22", 
+      qtp: "How can we forgive others as Jesus forgives us? How can we show mercy?"
   },
   {
       question: "When Jesus was tempted by Satan in the wilderness, how did He respond?",
@@ -68,7 +40,8 @@ export const questions = [
           "I will prove my power by turning stones into bread."
       ],
       correct: 0,
-      scripture: "Matthew 4:1-11"
+      scripture: "Matthew 4:1-11",
+      qtp: "What master are we serving when we are on the fence?"
   },
   {
       question: "What did Jesus do when the storm threatened to sink the disciples’ boat?",
@@ -79,7 +52,8 @@ export const questions = [
           "He asked Peter to command the storm."
       ],
       correct: 0,
-      scripture: "Mark 4:35-41"
+      scripture: "Mark 4:35-41",
+      qtp: "How has Jesus brought you peace in the midst of your challenges?"
   },
   {
       question: "What did Jesus say when one of His disciples struck a servant’s ear during His arrest?",
@@ -90,7 +64,8 @@ export const questions = [
           "The time for battle is now."
       ],
       correct: 0,
-      scripture: "Matthew 26:51-52"
+      scripture: "Matthew 26:51-52",
+      qtp: "What swords do we possess?"
   },
   {
       question: "What did Jesus do when He saw the large crowd was hungry?",
@@ -101,7 +76,8 @@ export const questions = [
           "He told them fasting would strengthen their spirits."
       ],
       correct: 1,
-      scripture: "Matthew 14:13-21"
+      scripture: "Matthew 14:13-21",
+      qtp: "When have you seen Jesus multiply your gifts?"
   },
   {
       question: "What did Jesus say when asked whether we should pay taxes to Caesar?",
@@ -112,7 +88,8 @@ export const questions = [
           "Only the poor should pay taxes."
       ],
       correct: 1,
-      scripture: "Matthew 22:17-21"
+      scripture: "Matthew 22:17-21",
+      qtp: "What 'belongs' to Ceasar and what 'belongs' to God?"
   },
   {
       question: "How did Jesus respond when Peter walked on water but then started to sink?",
@@ -123,7 +100,8 @@ export const questions = [
           "You were not meant to walk on water."
       ],
       correct: 1,
-      scripture: "Matthew 14:28-31"
+      scripture: "Matthew 14:28-31",
+      qtp: "How can we keep our eyes on Jesus when we are sinking in the struggles of life?"
   },
   {
       question: "What did Jesus say when He was crucified?",
@@ -134,7 +112,8 @@ export const questions = [
           "You will see my wrath in three days."
       ],
       correct: 0,
-      scripture: "Luke 23:34"
+      scripture: "Luke 23:34",
+      qtp: "How can we be kind to others when they are unkind to us?"
   },
   {
       question: "What did Jesus do when Lazarus had been dead for four days?",
@@ -145,7 +124,8 @@ export const questions = [
           "He promised to raise him at the end of time."
       ],
       correct: 0,
-      scripture: "John 11:38-44"
+      scripture: "John 11:38-44",
+      qtp: "How does it make you feel to know that Jesus wept for Lazarus even though He knew he could heal him?"
   },
   {
       question: "What did Jesus say to the woman caught in adultery after the accusers left?",
@@ -156,7 +136,8 @@ export const questions = [
           "Your past defines you."
       ],
       correct: 0,
-      scripture: "John 8:10-11"
+      scripture: "John 8:10-11",
+      qtp: "How can we show this level of mercy to others and ourselves?"
   },
   {
       question: "What did Jesus say to His disciples about worrying for the future?",
@@ -167,7 +148,8 @@ export const questions = [
           "It is good to be anxious, for it shows concern."
       ],
       correct: 0,
-      scripture: "Matthew 6:34"
+      scripture: "Matthew 6:34",
+      qtp: "How can we trust God with our future?"
   },
   {
       question: "What did Jesus say to the thief on the cross who asked to be remembered?",
@@ -178,7 +160,8 @@ export const questions = [
           "Your sins are too great."
       ],
       correct: 0,
-      scripture: "Luke 23:43"
+      scripture: "Luke 23:43",
+      qtp: "Are we ever too far gone for Jesus to save us? What does this say about God's mercy?"
   },
   {
       question: "What did Jesus do when He saw the money changers in the temple?",
@@ -189,7 +172,8 @@ export const questions = [
           "He told His disciples to pray for them."
       ],
       correct: 0,
-      scripture: "Matthew 21:12-13"
+      scripture: "Matthew 21:12-13",
+      qtp: "How are we to honor God with our actions?"
   },
   {
       question: "What did Jesus say about serving others?",
@@ -200,7 +184,8 @@ export const questions = [
           "Power and influence bring greatness."
       ],
       correct: 0,
-      scripture: "Matthew 20:26"
+      scripture: "Matthew 20:26",
+      qtp: "What does it mean to be a servant leader?"
   },
   {
       question: "What did Jesus do when He met the Samaritan woman at the well?",
@@ -211,7 +196,8 @@ export const questions = [
           "He condemned her for her past."
       ],
       correct: 0,
-      scripture: "John 4:10-14"
+      scripture: "John 4:10-14",
+      qtp: "What is the 'living water' that Jesus offers?"
   }
   ];
   
